@@ -1,30 +1,30 @@
 ---
 name: simple-brainstorm
-description: "Use this before any creative work - creating features, building components, or modifying behavior. Lightweight brainstorming that gets to decisions fast."
+description: "Invoke before any creative or architectural work — feature design, component creation, or behavioral changes. A streamlined brainstorming process optimized for fast, focused decision-making."
 ---
 
 # Simple Brainstorm
 
-A lightweight brainstorming skill for quick ideation and decision-making. Get from idea to actionable plan in minutes, not hours.
+A structured yet lightweight brainstorming skill designed to move from idea to actionable direction quickly. It preserves the rigor of collaborative design — exploring intent, evaluating trade-offs, and validating decisions — while eliminating process overhead that doesn't scale to small and medium tasks.
 
-## Hard Gate
+## Gate
 
-Do NOT write any code or take any implementation action until the user approves a direction.
+Do NOT write any code, scaffold any files, or take any implementation action until the user has explicitly approved a direction.
 
 ## Process
 
-1. **Understand**: Read project context. Ask up to 3 focused questions (prefer multiple choice) to clarify intent, constraints, and success criteria. Combine related questions when possible.
+1. **Discover** — Assess project context (codebase, conventions, existing patterns). Ask up to 3 targeted questions to clarify intent, constraints, and success criteria. Prefer multiple-choice where possible. Batch related questions into a single message.
 
-2. **Propose**: Present 2 approaches with clear trade-offs. Lead with your recommendation and explain why. Keep each approach to 2-3 sentences.
+2. **Propose** — Present 2 distinct approaches with concrete trade-offs. Lead with your recommendation and state why. Keep each option to 2–3 sentences — enough to inform, not enough to overwhelm.
 
-3. **Decide**: Get user approval on an approach. If rejected, propose alternatives. Don't loop more than twice — if still unclear, ask the user to clarify what they want directly.
+3. **Converge** — Obtain explicit user approval on an approach. If rejected, offer revised alternatives. Limit to two proposal rounds — if alignment isn't reached, ask the user to state their preferred direction directly.
 
-4. **Summarize**: Write a brief summary of the chosen approach (what, why, key decisions) as a comment at the top of the first file you create, or share it in chat. No separate design doc needed.
+4. **Capture** — Record the chosen approach (what, why, key decisions) as a brief inline comment in the first implementation file, or surface it in chat. No separate design document unless the user requests one.
 
 ## Principles
 
-- **Speed over ceremony**: Skip formality. No design docs for small/medium work.
-- **YAGNI ruthlessly**: Only design what's needed now.
-- **Bias toward action**: When two options are close, pick one and move. Perfect is the enemy of done.
-- **One round of questions**: Batch your clarifying questions. Don't drag out discovery.
-- **Scale to complexity**: For trivial tasks, steps 1-2 can be a single message. For larger work, spend more time on step 2.
+- **Speed over ceremony** — Minimize overhead. Reserve formal design artifacts for work that genuinely warrants them.
+- **YAGNI** — Design only for current requirements. Resist speculative abstractions.
+- **Bias toward action** — When options are comparably viable, commit to one and proceed. Indecision costs more than imperfection.
+- **Batched discovery** — Consolidate clarifying questions into a single round. Avoid drawn-out back-and-forth.
+- **Proportional depth** — Scale the process to the task. Trivial changes can complete steps 1–2 in a single message; larger efforts merit fuller exploration in step 2.
