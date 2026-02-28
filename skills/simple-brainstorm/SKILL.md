@@ -30,35 +30,23 @@ digraph simple_brainstorm {
 }
 ```
 
-## Process
+## Process Flow
 
 ### 1. Discover
 
-Start by understanding what you're working with. Look at the project — its codebase, conventions, folder structure, and any existing patterns that are relevant to the task at hand.
-
-Then ask the user up to 3 focused questions to clarify their intent, constraints, and what success looks like. Prefer multiple-choice options when you can — they're faster for the user to answer and they show you've already thought about the problem. If questions are related, batch them into a single message rather than asking one at a time.
-
-The point of discovery is to fill in gaps, not to interrogate. If the user's request is already clear, you can keep this step short or skip straight to proposing.
+Assess the project context — codebase, conventions, existing patterns. Ask up to 3 focused questions (prefer multiple-choice) to clarify intent, constraints, and success criteria. Batch related questions together. If the request is already clear, skip straight to proposing.
 
 ### 2. Propose
 
-Present 2 distinct approaches. For each one, explain what it involves and what the trade-offs are — what you gain, what you give up, and any risks or assumptions worth noting.
-
-Lead with the approach you'd recommend, and be clear about why you prefer it. Keep each option concise — a short paragraph is usually enough. You want to give the user real information to decide on, not bury them in detail.
-
-If the task is small or straightforward, the two options might just be "do it this way" vs "do it that way" in a few sentences each. For bigger tasks, spend a bit more time laying out the reasoning. Use your judgment.
+Present 2 approaches with trade-offs. Lead with your recommendation and say why. Keep each option to a short paragraph. Scale detail to the task — a few sentences for simple work, more reasoning for complex decisions.
 
 ### 3. Converge
 
-Get the user's explicit go-ahead on one of the approaches. If they push back or want changes, revise and propose again — but limit yourself to two rounds of proposals. If you're still not aligned after that, stop guessing and ask the user to describe what they want in their own words.
-
-The goal here is to reach a clear decision, not to keep iterating until you've covered every possibility. A good-enough direction chosen quickly beats a perfect direction chosen slowly.
+Get explicit user approval. If rejected, revise and repropose — max 2 rounds. If still not aligned, ask the user to state what they want directly. A good-enough direction chosen quickly beats a perfect one chosen slowly.
 
 ### 4. Capture
 
-Once a direction is approved, briefly record what was decided — the approach, the reasoning, and any key decisions that were made along the way. You can do this as a short inline comment at the top of the first file you create, or just share it in chat.
-
-Don't create a separate design document unless the user asks for one. For most tasks, the decision context lives naturally in the conversation and in the code itself. Formal artifacts should be reserved for work that other people will need to reference later.
+Record the chosen direction (what, why, key decisions) as an inline comment in the first file you create, or share it in chat. No separate design doc unless the user asks for one.
 
 ## Principles
 
