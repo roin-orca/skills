@@ -13,6 +13,23 @@ The goal is simple: understand what the user wants, think through the options to
 
 Do NOT write any code, scaffold any files, or take any implementation action until the user has explicitly approved a direction. This applies even when the task seems obvious. The whole point of brainstorming is to pause and think before building. Respect that boundary.
 
+## Flow
+
+```dot
+digraph simple_brainstorm {
+    rankdir=TB
+    node [shape=box style=rounded]
+
+    Discover -> Propose
+    Propose -> Converge
+    Converge -> Approved [label="yes"]
+    Converge -> Propose [label="no (max 2x)"]
+    Approved [shape=diamond]
+    Approved -> Capture
+    Capture -> Implement
+}
+```
+
 ## Process
 
 ### 1. Discover
