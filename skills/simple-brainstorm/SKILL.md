@@ -30,21 +30,13 @@ digraph simple_brainstorm {
 }
 ```
 
-### 1. Discover
+- **Discover** — Assess project context — codebase, conventions, existing patterns. Ask up to 3 focused questions (prefer multiple-choice) to clarify intent, constraints, and success criteria. Batch related questions together. If the request is already clear, skip straight to proposing.
 
-Assess the project context — codebase, conventions, existing patterns. Ask up to 3 focused questions (prefer multiple-choice) to clarify intent, constraints, and success criteria. Batch related questions together. If the request is already clear, skip straight to proposing.
+- **Propose** — Present 2 approaches with trade-offs. Lead with your recommendation and say why. Keep each option to a short paragraph. Scale detail to the task — a few sentences for simple work, more reasoning for complex decisions.
 
-### 2. Propose
+- **Converge** — Get explicit user approval. If rejected, revise and repropose — max 2 rounds. If still not aligned, ask the user to state what they want directly. A good-enough direction chosen quickly beats a perfect one chosen slowly.
 
-Present 2 approaches with trade-offs. Lead with your recommendation and say why. Keep each option to a short paragraph. Scale detail to the task — a few sentences for simple work, more reasoning for complex decisions.
-
-### 3. Converge
-
-Get explicit user approval. If rejected, revise and repropose — max 2 rounds. If still not aligned, ask the user to state what they want directly. A good-enough direction chosen quickly beats a perfect one chosen slowly.
-
-### 4. Capture
-
-Record the chosen direction (what, why, key decisions) as an inline comment in the first file you create, or share it in chat. No separate design doc unless the user asks for one.
+- **Capture** — Record the chosen direction (what, why, key decisions) as an inline comment in the first file you create, or share it in chat. No separate design doc unless the user asks for one.
 
 ## Principles
 
