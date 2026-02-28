@@ -13,7 +13,7 @@ The goal is simple: understand what the user wants, think through the options to
 
 Do NOT write any code, scaffold any files, or take any implementation action until the user has explicitly approved a direction. This applies even when the task seems obvious. The whole point of brainstorming is to pause and think before building. Respect that boundary.
 
-## Flow
+## Process Flow
 
 ```dot
 digraph simple_brainstorm {
@@ -29,8 +29,6 @@ digraph simple_brainstorm {
     Capture -> Implement
 }
 ```
-
-## Process Flow
 
 ### 1. Discover
 
