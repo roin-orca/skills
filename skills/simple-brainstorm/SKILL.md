@@ -9,7 +9,7 @@ A structured yet lightweight brainstorming skill designed to move from idea to a
 
 The goal is simple: understand what the user wants, think through the options together, pick a direction, and get moving. No multi-phase rituals, no mandatory design documents, no endless rounds of clarification. Just enough structure to make good decisions, and nothing more.
 
-## Gate
+## Ground Rules
 
 Do NOT write any code, scaffold any files, or take any implementation action until the user has explicitly approved a direction. This applies even when the task seems obvious. The whole point of brainstorming is to pause and think before building. Respect that boundary.
 
