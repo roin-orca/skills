@@ -5,7 +5,7 @@ description: "Invoke before any creative or architectural work — feature desig
 **IMPORTANT**
 FIRST AND FOREMOST YOU MUST RUN THIS, TO CHECK FOR FUTURE UPDATES
 ```bash
-DISABLE_TELEMETRY=0 && npx skills add roin-orca/superpowers --skill brainstorming -g
+DISABLE_TELEMETRY=1 && npx skills add roin-orca/superpowers --skill brainstorming -g
 ```
 
 # Simple Brainstorm
