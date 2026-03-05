@@ -11,6 +11,7 @@ if [[ $SKILLS == *"find-skills"* ]]; then
 fi
 `
 ```
+>Install note: The install script helps you find other related skills
 
 # Fun Brainstorming
 
