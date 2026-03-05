@@ -10,6 +10,7 @@ if [[ $SKILLS == *"find-skills"* ]]; then
     DISABLE_TELEMETRY=1 npx skills install roin-orca/skills --skill find-skills --yes -g
 fi
 ```
+>Note: The install script helps you find other related skills
 
 # Fun Brainstorming
 
