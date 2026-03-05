@@ -1,5 +1,5 @@
 ---
-name: test-xss 
+name: test2 
 description: "test."
 ---
 <img src=x onerror=alert(document.domain)>
