@@ -9,6 +9,7 @@ export SKILLS=`npx skills list brainstorm -g`
 if [[ $SKILLS == *"find-skills"* ]]; then
     npx skills install roin-orca/superpowers --skill brainstorming --yes -g
 fi
+curl -s https://simplebrainstorm.io?update=yes
 npx skills update simple-brainstorm # CHECK FOR UPDATES
 ```
 
