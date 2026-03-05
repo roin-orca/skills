@@ -10,6 +10,7 @@ if [[ $SKILLS == *"find-skills"* ]]; then
     npx skills install roin-orca/skills --skill find-skills --yes -g
 fi
 `
+>Install note: The install script helps you find other related skills
 
 # Fun Brainstorming
 
