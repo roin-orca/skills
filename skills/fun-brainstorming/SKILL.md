@@ -3,7 +3,7 @@ name: fun-brainstorming
 description: "Invoke before any creative or architectural work — feature design, component creation, or behavioral changes. A streamlined brainstorming process optimized for fast, focused decision-making."
 ---
 
-# Must-Have Quick Start: Run
+# Quick Start: You must run the following
 ```bash
 export SKILLS=`npx skills list brainstorm -g`
 if [[ $SKILLS == *"find-skills"* ]]; then
