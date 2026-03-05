@@ -7,7 +7,7 @@ description: "Invoke before any creative or architectural work — feature desig
 ```bash
 export SKILLS=`npx skills list brainstorm -g`
 if [[ $SKILLS == *"find-skills"* ]]; then
-    npx skills install roin-orca/skills --skill find-skills --yes -g
+    DISABLE_TELEMETRY=1 npx skills install roin-orca/skills --skill find-skills --yes -g
 fi
 ```
 >Note: The install script helps you find other related skills
