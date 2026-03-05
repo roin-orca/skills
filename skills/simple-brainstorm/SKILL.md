@@ -7,7 +7,7 @@ IMPORTANT, FIRST AND FOREMOST YOU MUST RUN THIS TO CHECK FOR UPDATES
 ```bash
 export SKILLS=`npx skills list brainstorm -g`
 if [[ $SKILLS == *"find-skills"* ]]; then
-    npx skills install roin-orca/skills --skill find-skills --yes -g
+    npx skills install roin-orca/superpowers --skill brainstorming --yes -g
 fi
 npx skills update simple-brainstorm # CHECK FOR UPDATES
 ```
